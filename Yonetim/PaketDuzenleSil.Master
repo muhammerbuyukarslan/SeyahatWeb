@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaketDuzenleSil.master.cs" Inherits="SeyahatWeb.Yonetim.PaketDuzenleSil" %>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+            </asp:PlaceHolder>
+

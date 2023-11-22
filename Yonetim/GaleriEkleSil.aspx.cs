@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SeyahatWeb.Yonetim
 {
-    public partial class PaketDuzenleSil : System.Web.UI.MasterPage
+    public partial class GaleriEkleSil : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

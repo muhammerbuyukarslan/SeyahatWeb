@@ -26,9 +26,9 @@
                         <asp:TextBox ID="txtKonum" runat="server" CssClass="form-control" placeholder="Tur Konum"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                      <label for="FileUpload1" class="form-label">Tur Upload</label>
+                      <label>Tur Upload</label>
                         <input type="file" name="img[]" class="file-upload-default" />
-                            <asp:FileUpload ID="FileUpload1" runat="server" CssClass="form-control file-upload-info" />
+                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="form-control file-upload-info" />
                     </div>
                     <div class="form-group">
                       <label for="txtDetay">Tur Detay</label>

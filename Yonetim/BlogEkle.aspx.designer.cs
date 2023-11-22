@@ -7,57 +7,66 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SeyahatWeb
+namespace SeyahatWeb.Yonetim
 {
 
 
-    public partial class iletisim
+    public partial class BlogEkle
     {
 
         /// <summary>
-        /// contactForm control.
+        /// txtBaslik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm contactForm;
+        protected global::System.Web.UI.WebControls.TextBox txtBaslik;
 
         /// <summary>
-        /// txtMesaj control.
+        /// txtOzet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMesaj;
+        protected global::System.Web.UI.WebControls.TextBox txtOzet;
 
         /// <summary>
-        /// txtAdSoyad control.
+        /// DropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAdSoyad;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
-        /// txtEposta control.
+        /// txtUpload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEposta;
+        protected global::System.Web.UI.WebControls.FileUpload txtUpload;
 
         /// <summary>
-        /// txtKonu control.
+        /// txtDetay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtKonu;
+        protected global::System.Web.UI.WebControls.TextBox txtDetay;
+
+        /// <summary>
+        /// lblTarih control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTarih;
 
         /// <summary>
         /// Button1 control.

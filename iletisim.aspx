@@ -51,31 +51,31 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="form-contact contact_form" runat="server" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
+                                        <asp:TextBox ID="txtMesaj" TextMode="MultiLine" Height="150px" CssClass="form-control" runat="server" placeholder="Mesaj"></asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                        <asp:TextBox ID="txtAdSoyad" placeholder="Ad Soyad" CssClass="form-control valid" runat="server"></asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                        <asp:TextBox ID="txtEposta" placeholder="E-posta" CssClass="form-control valid" runat="server"></asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+                                        <asp:TextBox ID="txtKonu" placeholder="Konu" CssClass="form-control valid" runat="server"></asp:TextBox>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                                <asp:Button ID="Button1" runat="server" Text="Gönder" CssClass="button button-contactForm boxed-btn" />
                             </div>
                         </form>
                     </div>
